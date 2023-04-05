@@ -7,7 +7,7 @@ export const Form = styled.form`
   padding: 20px;
   width: 300px;
 
-  border: 1px dashed #676767;
+  border: 1px solid #676767;
   border-radius: 5px;
 `;
 
@@ -22,7 +22,7 @@ export const InputLabel = styled.label`
 export const InputField = styled.input`
   margin-top: 5px;
 
-  border: 1px dashed #676767;
+  border: 1px solid #676767;
   border-radius: 5px;
 
   padding: 5px;
@@ -30,7 +30,6 @@ export const InputField = styled.input`
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:focus {
-    border: 1px solid #4fe7f5;
     outline: none;
   }
 `;
@@ -41,14 +40,14 @@ export const AddButton = styled.button`
   width: 150px;
   align-self: center;
 
-  background-color: #a5f7ff;
-  border: 1px solid #62c0c9;
+  background-color: whitecool;
+  border: 1px solid;
   border-radius: 5px;
 
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     cursor: pointer;
-    background: #4fe7f5;
+    background: white;
   }
 `;

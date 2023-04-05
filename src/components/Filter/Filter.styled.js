@@ -7,6 +7,6 @@ export const FilterWrap = styled.div`
   width: 300px;
   padding: 20px;
 
-  border: 1px dashed #676767;
+  border: 1px solid #676767;
   border-radius: 5px;
 `;

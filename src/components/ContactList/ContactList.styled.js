@@ -20,14 +20,14 @@ export const DeleteButton = styled.button`
   padding: 5px;
   width: 60px;
 
-  background-color: #a5f7ff;
-  border: 1px solid #62c0c9;
+  background-color: whitecool;
+  border: 1px solid;
   border-radius: 5px;
 
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     cursor: pointer;
-    background: #4fe7f5;
+    background: white;
   }
 `;

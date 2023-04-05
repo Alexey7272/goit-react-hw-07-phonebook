@@ -22,9 +22,9 @@ const ContactList = () => {
       {showLoading && <p>Loading...</p>}
       {showError && <p>{error.message}</p>}
 
-      {visibleContacts.map(({ id, name, number }) => (
+      {visibleContacts.map(({ id, name, phone }) => (
         <ContactItem key={id}>
-          {name}: {number}
+          {name}: {phone}
           <DeleteButton
             id={id}
             type="button"
